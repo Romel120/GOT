@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  background-image: url('/assets/wallpaper.jpg');
+  background-size: cover; 
+}
+
+mat-toolbar-row{
+  justify-content: center;
+  font: 500 60px/252px Roboto, "Helvetica Neue", sans-serif;
+  box-shadow: 1px 2px 10px 3px rgb(83 83 83 / 60%);
+}
+mat-toolbar-row > a{
+  text-decoration: none;
+  color: white;
+}
+mat-toolbar {
+  height: 100px;
+  background: transparent; 
+  color: #fff; 
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #333; 
+    }
+  }
+ 
+  button.router-link-active {
+    background-color: #333; 
+  }
+}
+ .headerbutton {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding-left: 20px;
+    transition: background-color 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: #333; 
+    }
+  }
